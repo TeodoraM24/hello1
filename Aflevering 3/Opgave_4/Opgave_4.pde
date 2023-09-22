@@ -6,8 +6,8 @@ void setup() {
   mySquare.display();
 
   for (int i = 0; i < 10; i++) {
-    float x = random(width - 30);
-    float y = random(height - 30);
+    float x = random(width - 50);
+    float y = random(height - 50);
     squares[i] = new Square(x, y);
   }
 }
@@ -22,6 +22,6 @@ class Square {
   }
 
   void display() {
-    rect(xposition, yposition, 30, 30);
+    rect(xposition, yposition, 50, 50);
   }
 }
