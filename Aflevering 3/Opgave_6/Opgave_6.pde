@@ -14,8 +14,14 @@ void draw()
 {
  for (int x = 0; x < 8; x++) {
     for (int y = 0; y < 8; y++) {
-      int fillColor = (board[x][y] == 0) ? 0 : 255; 
-      fill(fillColor);
+         if(board[x][y] == 0)
+      {
+      fill(0);
+      }
+      else
+      {
+      fill(225);
+      }
       rect(x * sideLength, y * sideLength, sideLength, sideLength);
     }
   }
