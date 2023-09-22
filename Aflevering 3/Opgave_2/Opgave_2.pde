@@ -1,17 +1,14 @@
 void setup()
 {
 String inputWord= "København";
-int startIndex= 1;
-int length=4;
-printPartOfWord(inputWord, startIndex, length);
+String output=input.substring(1,5);
+println(output);
+printPartOfWord("Københavng",1,4);
 
 }
 
-void printPartOfWord(String inputWord, int startIndex, int length)
+void printPartOfWord(String inputWord, int startIndex, int l)
 {
-if(startIndex>0 && startIndex<inputWord.length() && length>0)
-  {
-    String result = inputWord.substring(startIndex, startIndex+length);
-    println(result);
-  }
+println(navn.substring( startIndex+, l+ startIndex));
+
 }
