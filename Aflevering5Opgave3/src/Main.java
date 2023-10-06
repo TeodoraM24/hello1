@@ -6,7 +6,7 @@ public class Main {
        Room room2= new Room(1,2,6);
        Room room3=new Room(3,4,7);
 
-       ArrayList<Room> rooms= new ArrayList<>();
+       ArrayList<Room> rooms= new ArrayList<Room>();
        rooms.add(room1);
        rooms.add(room2);
        rooms.add(room3);
