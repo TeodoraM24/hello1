@@ -117,10 +117,10 @@ arc(characterX,characterY-120,25,15,0,PI); //arc is used to draw half of an elli
        }
   }
 
-  // Ensure the character stays within the canvas boundaries
+  // Ensure the character stays within the canvas 
   characterX = constrain(characterX, 25, width - 25);
 
-  // Check if the character has reached the items
+  // Check if the character has reached ice cream
   if (abs(characterX - iceCreamX) < 20 && moveToIceCream) 
   {
     textSize(18);
