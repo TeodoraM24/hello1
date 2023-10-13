@@ -47,7 +47,7 @@ void draw()
   String instructions="Choose your snack, you can choose one ice cream by pressing 'i' on your keyboard or you can choose 4 apples by pressing 'a'. The calories in 4 apples equals to one ice cream. Make your choice and enjoy. :)";
 text(instructions, 0,0, width, height);
 
-drawIceCream(); //calling the functions to draw, because it is easier to read the code
+drawIceCream(); //calling the functions in draw
 drawAplles();
 character();
 }
